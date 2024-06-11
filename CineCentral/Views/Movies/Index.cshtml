@@ -1,0 +1,32 @@
+﻿@model IEnumerable<CineCentral.Models.Movie>
+@{
+    ViewBag.Title = "Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>All Movies</h2>
+@if (!Model.Any())
+{
+    <p> we dont have movies </p>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Movies</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var m in Model)
+            {
+                <tr>
+                    @*
+        <td>@Html.ActionLink(m.Name, "Details", "Customers", new { id = customer.Id }, null)</td>
+                    *@
+                    <td> @m.Name </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
