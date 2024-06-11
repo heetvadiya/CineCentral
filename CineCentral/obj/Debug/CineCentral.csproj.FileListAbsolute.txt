@@ -109,3 +109,5 @@ C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.pdb
 C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.InitialModel.resources
 C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.csproj.GenerateResource.cache
 C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.IntialModelwcustomer.resources
+C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.AddIsSubcribedToCustomer.resources
+C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.AddMembershipType.resources
