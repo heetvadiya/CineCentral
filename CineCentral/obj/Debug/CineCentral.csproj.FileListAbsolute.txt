@@ -111,3 +111,4 @@ C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.cspro
 C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.IntialModelwcustomer.resources
 C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.AddIsSubcribedToCustomer.resources
 C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.AddMembershipType.resources
+C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.PopulateMembershipType.resources
