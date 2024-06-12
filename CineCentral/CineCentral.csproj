@@ -212,9 +212,22 @@
     <Compile Include="Migrations\202406121134343_AddBirthdateToCustomer.designer.cs">
       <DependentUpon>202406121134343_AddBirthdateToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202406121207463_AddedGenre.cs" />
+    <Compile Include="Migrations\202406121207463_AddedGenre.designer.cs">
+      <DependentUpon>202406121207463_AddedGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406121214081_AddedDetailsInMovieModel.cs" />
+    <Compile Include="Migrations\202406121214081_AddedDetailsInMovieModel.designer.cs">
+      <DependentUpon>202406121214081_AddedDetailsInMovieModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202406121219150_Genres.cs" />
+    <Compile Include="Migrations\202406121219150_Genres.designer.cs">
+      <DependentUpon>202406121219150_Genres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -357,6 +370,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202406121134343_AddBirthdateToCustomer.resx">
       <DependentUpon>202406121134343_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406121207463_AddedGenre.resx">
+      <DependentUpon>202406121207463_AddedGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406121214081_AddedDetailsInMovieModel.resx">
+      <DependentUpon>202406121214081_AddedDetailsInMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202406121219150_Genres.resx">
+      <DependentUpon>202406121219150_Genres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
