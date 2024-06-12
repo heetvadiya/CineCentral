@@ -4,10 +4,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+
+<h1>@Model.Name</h1>
 <ul>
-    <li>@Model.Name</li>
-    @if (Model.Birthdate != null)
+    <li>Membership Type: @Model.MembershipType.Name</li>
+    @if (Model.Birthdate.HasValue)
     {
-        <li>@Model.Birthdate</li>
+        <li>Birthdate: @Model.Birthdate.Value.ToShortDateString()</li>
     }
 </ul>
+
