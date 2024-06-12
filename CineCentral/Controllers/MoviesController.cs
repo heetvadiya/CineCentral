@@ -44,5 +44,7 @@ namespace CineCentral.Controllers
                 return HttpNotFound();
             return View(movie);
         }
+
+
     }
 }
