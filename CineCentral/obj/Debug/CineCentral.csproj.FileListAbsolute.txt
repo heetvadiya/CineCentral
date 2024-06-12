@@ -115,3 +115,4 @@ C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migra
 C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.ApplyAnnotations.resources
 C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.AddNameToMembershipType.resources
 C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.PopulatingMembershipTypeName.resources
+C:\Users\LENOVO\source\repos\CineCentral\CineCentral\obj\Debug\CineCentral.Migrations.AddBirthdateToCustomer.resources

@@ -20,6 +20,6 @@ namespace CineCentral.Models
         // for optimisation, we sometimes dont want to include entire object,
         // We just want to include foreignkey , we can do that by this property
         // EF automatically recognises it by the convention
-
+        public DateTime? Birthdate { get; set; }
     }
 }
