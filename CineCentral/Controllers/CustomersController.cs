@@ -5,6 +5,7 @@ using System.Data.Entity;
 using System.Web;
 using System.Web.Mvc;
 using CineCentral.Models;
+using CineCentral.ViewModels;
 
 namespace CineCentral.Controllers
 {
@@ -41,7 +42,14 @@ namespace CineCentral.Controllers
 
         public ActionResult New()
         {
-            return View();
+            var membershiptypes = _context.MembershipTypes.ToList();
+
+            var viewModel = new NewCustomerViewModel
+            {
+                MembershipTypes = membershiptypes
+            };
+
+            return View(viewModel);
         }
     }
 }
